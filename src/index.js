@@ -5,7 +5,8 @@ import App from './App';
 import SignaturePanel from './App';
 import * as serviceWorker from './serviceWorker';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+require('./App.css')
+require('bootstrap/dist/css/bootstrap.min.css');
 
 
 ReactDOM.render(
