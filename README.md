@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Esign
+
+This is the main application for Esign, with helper applications `esign-mobile` and `esign-server` on other repositories.
+
+For most of the functionality, this application depends on a proxy server `esign-server` to function. `esign-server` will usually run on a different port number during deployment. **Therefore, please search for all part of code that contains "http://localhost:8080/..." and change it to the right port number and directory name of `esign-server`**
+
+Esign is yet to be finished. Specifically, the functions for submitting signature and rejecting a document are yet to be implemented. The next step will be implementing the related proxy servlet on `esign-server` for this 2 functions and having `esign` post to these servelets when some buttons are clicked.
 
 ## Available Scripts
 
